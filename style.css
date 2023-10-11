@@ -1,0 +1,56 @@
+img {
+    width: 18em;
+    padding: 1.5em;
+    background-color: powderblue;
+}
+
+.hover:hover {
+    background-color:darkseagreen;
+    color: white;
+}
+
+.header {
+    background-color: powderblue;
+    height: 80px;
+    width: 50em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    line-height: 80px;
+    font-family: Cinzel, serif;
+    font-size: 1.05em; 
+}
+
+body {
+    text-align: center;
+    background-color:lightcyan;
+    font-family: 'Fauna One', serif;
+    font-size: 1.5em;
+}
+
+
+/* credit to https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html for the css for box and text since i wanted the text to be next to the image */
+.box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    column-gap: 4em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.box:hover {
+    background-color:cadetblue;
+    border-radius: 5em;
+}
+
+.text {
+    background-color: powderblue;
+    padding: 4em;
+    padding-top: 6em;
+    border-radius: 70em;
+    
+}
+
+
